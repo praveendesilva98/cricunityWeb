@@ -1,0 +1,47 @@
+h3 
+{
+    font-size: 3em;
+    font-family: "Core Sans N W01 35 Light";
+    font-weight: normal;
+    margin: .67em 0;
+    display: block;
+    color: #ffffff;
+}
+
+h2
+{
+    font-family: "Core Sans N W01 35 Light";
+    font-weight: normal;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+h4
+{
+    font-family: "Core Sans N W01 35 Light";
+    font-weight: normal;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.profile_info
+{
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 15%;
+}
+
+.profile_photo
+{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.profile_name
+{
+    text-decoration: none;
+    color: white;
+    padding-top: 8px;
+    text-align: center;
+}

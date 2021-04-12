@@ -1,0 +1,80 @@
+.navbar a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-item a
+{
+    margin-left: 10px;
+}
+
+.dropdown-menu
+{
+    background: linear-gradient(to bottom, #000066 0%, #cc00cc 100%);
+    width: 40%;
+}
+
+
+.dropdown-menu a
+{
+    color: white;
+}
+
+.logo
+{
+    font-family: 'ROG Fonts', sans-serif;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+.navbar .collapse .navbar-nav
+{
+    color: white;
+}
+
+header
+{
+    background-color: #000000;
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+}
+
+.footer
+{
+    background: linear-gradient(to bottom, #000000 -5%, #3366ff 100%);
+    width: 100%;
+    height: 80px;
+}
+
+.footer h6
+{
+    text-align: center;
+    color: aliceblue;
+    padding-top: 20px;
+}
+
+.menu-toggle
+{
+    position: relative;
+    color: #ffffff;
+    cursor: pointer;
+    z-index: 2000;
+}
+
+.menu-toggle .fa-times
+{
+    display: none;
+}
+
+header.nav-open .fa-times
+{
+    display: block;
+}
+
+header.nav-open .fa-bars
+{
+    display: none;
+}
+

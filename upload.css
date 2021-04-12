@@ -1,0 +1,39 @@
+.settings_form
+{
+    margin-left: 20px;
+}
+
+.settings_form input[type="submit"]
+{
+    width: 16%;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Bellota-BoldItalic', sans-serif;
+    color: #020A17;
+    font-size: 16px;
+    position: relative;
+    cursor: pointer;
+    float: left;
+    margin-right: 100px;
+    border: none;
+}
+
+.settings_form input[type="submit"]:active
+{
+    padding: 5px 4px 4px 5px;
+}
+
+.settings_form input[type="submit"]:hover
+{
+    background-color: #020A17;
+    transition: 400ms color;
+    color: white;
+}
+
+img
+{
+    width: 15%;
+    margin-top: 100px;
+    position: relative;
+    margin-left: 40px;
+}

@@ -1,0 +1,46 @@
+h2
+{
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+}
+
+h5
+{
+    color: black;
+    font-family: 'Georgia', serif;
+}
+
+h4
+{
+    color: black;
+    font-family: 'Georgia', serif;
+}
+
+.text h5 a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.form-group
+{
+    width: 70%;
+    height: auto;
+}
+
+.navbar
+{
+    background-color: black;
+}
+
+.navbar a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar img
+{
+    width: 70%;
+    cursor: pointer;
+}

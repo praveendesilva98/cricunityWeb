@@ -1,0 +1,3 @@
+<?php
+$LIMIT_GLOBAL=10;
+$OFFSET_GLOBAL=10;

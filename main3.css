@@ -1,0 +1,127 @@
+.front
+{
+    width: 100%;
+    position: absolute;
+    margin-bottom: 100px;
+}
+
+.container
+{
+    position: relative;
+    width: 100%;
+}
+
+.image
+{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay1
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.container:hover .overlay1
+{
+    opacity: 1;
+}
+
+.text1
+{
+    color: #ffffff;
+    font-size: 16px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    text-align: center;
+}
+
+.text2
+{
+    color: #ffffff;
+    font-size: 20px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.main-header-content::after
+{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column-photo
+{
+    float: left;
+    width: 33.33%;
+    padding: 1px;
+}
+
+.button
+{
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #cdcdcd;
+    border: none;
+    color: #020A17;
+    text-align: center;
+    font-size: 8px;
+    font-weight: bold;
+    padding: 14px;
+    width: 160px;
+    transition: all 0.5s;
+    cursor: pointer;
+
+}
+
+.button span
+{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span::after
+{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+    font-size: 14px;
+}
+
+.button:hover
+{
+    background-color: rgba(150, 144, 144, 0.788);
+}
+
+.button:hover span
+{
+    padding-right: 25px;
+}
+
+.button:hover span:after
+{
+    opacity: 1;
+    right: 0;
+}
+

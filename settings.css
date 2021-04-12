@@ -1,0 +1,103 @@
+body
+{
+    overflow-x: hidden;
+    background-color: #020A17;
+    margin: 0;
+}
+
+h4 
+{
+    font-size: 3em;
+    font-family: "Core Sans N W01 35 Light";
+    font-weight: normal;
+    margin: .67em 0;
+    display: block;
+    color: #ffffff;
+}
+
+h3
+{
+    font-family: "Core Sans N W01 35 Light";
+    font-weight: normal;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+h2
+{
+    font-family: "Core Sans N W01 35 Light";
+    font-weight: normal;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+
+#small_profile_pics
+{
+    width: 15%;
+    margin-top: 100px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.settings_form
+{
+    margin-left: 40px;
+}
+
+.settings_form input[type="submit"]
+{
+    width: 16%;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Bellota-BoldItalic', sans-serif;
+    color: #020A17;
+    font-size: 16px;
+    position: relative;
+    cursor: pointer;
+    float: left;
+    margin-right: 100px;
+    border: none;
+}
+
+.settings_form input[type="submit"]:active
+{
+    padding: 5px 4px 4px 5px;
+}
+
+.settings_form input[type="submit"]:hover
+{
+    background-color: #020A17;
+    transition: 400ms color;
+    color: white;
+}
+
+.photo_form input[type="submit"]
+{
+    width: 16%;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Bellota-BoldItalic', sans-serif;
+    color: #020A17;
+    font-size: 16px;
+    position: relative;
+    cursor: pointer;
+    float: left;
+    margin-left: 490px;
+    border: none;
+}
+
+
+.photo_form input[type="submit"]:hover
+{
+    background-color: #020A17;
+    transition: 400ms color;
+    color: white;
+}
+
+.text
+{
+    margin-left: 30px;
+}

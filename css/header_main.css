@@ -1,0 +1,35 @@
+.navbar
+{
+    background-color: #000000;
+}
+
+.logo
+{
+    font-family: 'ROG Fonts', sans-serif;
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+}
+
+.logo:hover
+{
+    color: white;
+    text-decoration: none;
+}
+
+.dropdown-menu
+{
+    background: white;
+    width: 40%;
+}
+
+.dropdown-menu li a:hover 
+{
+    background: rgb(167, 167, 167);
+}
+
+.navbar-default .navbar-nav>li>a 
+{
+    color: white;
+}
+

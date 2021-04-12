@@ -1,0 +1,25 @@
+nav
+{
+    background-color: #020A17;
+    width: 100%;
+    height: auto;
+}
+
+.nav-style
+{
+    float: right;
+    padding-right: 20px;
+}
+
+.nav-style a
+{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.nav-style a:hover
+{
+    color: #ffffff42;
+}

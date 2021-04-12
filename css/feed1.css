@@ -1,0 +1,120 @@
+h5
+{
+    color: black;
+    font-size: 26px;
+    font-family: 'Georgia', serif;
+
+}
+
+.white_box
+{
+    width: 75%;
+    background-color: white;
+}
+
+body
+{
+    background-image: linear-gradient(to right, #09113c, #0c1746, #0e1e50, #11245a, #122b65, #0d2c6f, #072e78, #002f82, #002a8c, #002294, #0f179b, #2300a1);
+    overflow-x: hidden;
+}
+
+.img-responsive
+{
+    width: 80%;
+}
+
+.post_profile_pic
+{
+    float: left;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.posted_by a
+{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    color: #001a41;
+    float: left;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+
+.delete_button
+{
+    background-color: rgb(184, 38, 38);
+    color: aliceblue;
+    border: none;
+    float: right;
+    margin-right: 2%;
+    margin-top: 1%;
+}
+
+.report_button
+{
+    background-color: rgb(184, 174, 38);
+    color: aliceblue;
+    border: none;
+    float: right;
+    margin-right: 2%;
+    margin-top: 1%;
+}
+
+.report_buttoned
+{
+    background-color: rgb(184, 174, 38);
+    color: aliceblue;
+    border: none;
+    float: right;
+    margin-right: 2%;
+    margin-top: 1%;
+}
+
+.time
+{
+    float: left;
+    margin-left: 2%;
+}
+
+.type
+{
+    float: right;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+
+iframe
+{
+    margin-top: 2%;
+    height: 350px;
+    width: 80%;
+}
+
+#post_text
+{
+    width: 75%;
+}
+
+.custom-file-input
+{
+    margin-left: 12.5%;
+}
+
+#post_button
+{
+    background-color: #022f72;
+    color: white;
+    width: 60px;
+    height: 40px;
+    border: none;
+}
+
+#post_button:hover
+{
+    background-color: #22272e;
+    color: white;
+    transition: 0.5s;
+}

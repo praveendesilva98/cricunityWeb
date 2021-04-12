@@ -1,0 +1,170 @@
+h3 
+{
+    font-size: 3em;
+    font-family: "Core Sans N W01 35 Light";
+    font-weight: normal;
+    margin: .67em 0;
+    display: block;
+    color: #ffffff;
+}
+
+h2
+{
+    font-size: 14px;
+    color: #ffffff;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html
+{
+    font-size: 10px;
+    font-family: 'Microsoft New Tai Lue', sans-serif;
+}
+
+header
+{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    transition: transform 650ms;
+    background-color: #020A17;
+    margin-bottom: 0px;
+}
+
+body
+{
+    overflow-x: hidden;
+    background-color: #020A17;
+}
+
+.menu-toggle
+{
+    position: relative;
+    top: 1rem;
+    left: 1rem;
+    margin-bottom: 15px;
+    font-size: 3rem;
+    color: #ffffff;
+    cursor: pointer;
+    z-index: 2000;
+}
+
+.menu-toggle .fa-times
+{
+    display: none;
+}
+
+header.nav-open .fa-times
+{
+    display: block;
+}
+
+header.nav-open .fa-bars
+{
+    display: none;
+}
+
+
+
+.overlay
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 1000;
+    display: none;
+}
+
+
+header.nav-open .overlay
+{
+    display: block;
+}
+
+.sidebar
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 100%;
+    transform: translateX(-25rem);
+    background-color: #020A17;
+    padding: 1rem;
+    z-index: 1500;
+}
+
+
+.logo
+{
+    font-size: 20px;
+    font-family: 'ROG Fonts', sans-serif;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+
+header.nav-open
+{
+    transform: translateX(25rem);
+}
+
+.nav-list
+{
+    list-style: none;
+}
+
+.nav-item
+{
+    position: relative;
+    margin: 0%;
+    padding: 1.5rem 0;
+}
+
+.nav-item::before
+{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(to right, #fa6c98, purple);
+}
+
+.nav-link
+{
+    color: #ffffff;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: color 400ms;
+}
+
+.nav-link:hover
+{
+    color: #cdcdcd;
+}
+
+.column
+{
+    width: 33%;
+    float: left;
+    padding: 10px;
+}
+
+.social-media
+{
+    margin-top: 50px;
+}
+

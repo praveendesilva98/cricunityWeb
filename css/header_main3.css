@@ -1,0 +1,28 @@
+.navbar
+{
+    background-color: #000000;
+    border: none;
+    margin-top: -20px;
+}
+
+.dropdown-menu
+{
+    background: white;
+    width: 40%;
+}
+
+.navbar-header img
+{
+    width: 200px;
+    margin-top: 15px;
+}
+
+.navbar-default .navbar-nav>li>a 
+{
+    color: rgba(255, 255, 255, 0.671);
+}
+.navbar-default .navbar-nav>li>a:hover
+{
+    color: rgb(255, 255, 255);
+}
+

@@ -1,0 +1,38 @@
+.navbar
+{
+    background-color: #000000;
+    border: none;
+    margin-top: -20px;
+}
+
+.logo
+{
+    font-family: 'ROG Fonts', serif;
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+}
+
+.logo:hover
+{
+    color: white;
+    text-decoration: none;
+}
+
+.dropdown-menu
+{
+    background: white;
+    width: 40%;
+}
+
+
+
+.navbar-default .navbar-nav>li>a 
+{
+    color: rgba(255, 255, 255, 0.671);
+}
+.navbar-default .navbar-nav>li>a:hover
+{
+    color: rgb(255, 255, 255);
+}
+

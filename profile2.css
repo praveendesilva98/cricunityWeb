@@ -1,0 +1,238 @@
+body
+{
+    overflow-x: hidden;
+    background-color: #020A17;
+    margin: 0;
+}
+
+h4 
+{
+    font-size: 4em;
+    font-family: "Core Sans N W01 35 Light";
+    font-weight: normal;
+    margin: .67em 0;
+    display: block;
+    color: #ffffff;
+}
+
+h3
+{
+    font-family: "Core Sans N W01 35 Light";
+    font-weight: normal;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+h2
+{
+    font-family: "Core Sans N W01 35 Light";
+    font-weight: normal;
+    font-size: 14px;
+    color: #ffffff;
+}
+.profile_info
+{
+    width: 25%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.profile_photo
+{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.profile_name
+{
+    text-decoration: none;
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Georgia', serif;
+}
+
+
+.post_topic
+{
+    width: 100%;
+    z-index: -1;
+    min-height: 100px;
+}
+
+.post_form
+{
+    width: 100%;
+}
+
+.post_form textarea
+{
+    position: relative; 
+    top: 50%; 
+    left: 50%;
+    transform: translate(-80%, -50%);
+    border-radius: 5px;
+    border: 1px solid #D3D3D3;
+    font-size: 14px;
+    overflow-y: scroll;
+}
+
+textarea:focus
+{
+    outline: 0;
+}
+
+.post_form input[type="submit"]
+{
+    width: 6%;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Bellota-BoldItalic', sans-serif;
+    color: #020A17;
+    font-size: 16px;
+    position: relative;
+    cursor: pointer;
+    float: right;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    border: none;
+}
+
+.post_form input[type="submit"]:active
+{
+    padding: 5px 4px 4px 5px;
+}
+
+.post_form input[type="submit"]:hover
+{
+    background-color: #020A17;
+    transition: 400ms color;
+    color: white;
+}
+
+.white_box
+{
+    background-color: white;
+    width: 60%;
+    min-height: 150px;
+    position: relative;
+    padding-top: 5px;
+    margin-top: 10px;
+}
+
+.status_post
+{
+    width: 96%;
+    font-size: 15px;
+    padding: 0px 5px;
+    min-height: 100px;
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.post_profile_pic
+{
+    float: left;
+    margin-right: 7px;
+}
+
+.post_profile_pic img
+{
+    border-radius: 5px;
+}
+
+.posted_by a
+{
+    text-decoration: none;
+    color: #17035f;
+    font-weight: bold;
+    float: left;
+}
+
+.post_body
+{
+    padding-top: 10px;
+    font-family: 'Georgia', serif;
+    color: #000000;
+    font-size: 16px;
+    margin-left: 5px;
+    text-align: left;
+}
+
+.title
+{
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+iframe
+{
+    background-color: #ffffff;
+}
+
+#comment_iframe
+{
+    max-height: 250px;
+    width: 100%;
+}
+
+.comment_section
+{
+    padding: 0 5px 5px 5px;
+}
+
+.comment_section img
+{
+    margin: 0 3px 3px 3px;
+}
+
+.newsfeedPostOptions
+{
+    padding: 0;
+    text-decoration: none;
+    color: #000000;
+    border: none;
+    margin-left: 5px;
+}
+
+.postedImage img
+{
+    max-height: 200px;
+    max-width: 700px;
+    display: block;
+}
+
+#fileToUpload input[type="file"]
+{
+    float: right;
+}
+
+.custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+  .custom-file-input::before {
+    content: 'Upload Photo';
+    display: inline-block;
+    background: #ffffff;
+    color: #020A17;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 100px;
+  }
+  .custom-file-input:hover::before {
+    background-color: #020A17;
+    color: #ffffff;
+  }
+  .custom-file-input:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+  }

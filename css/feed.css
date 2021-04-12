@@ -1,0 +1,23 @@
+
+.navbar
+{
+    background-color: black;
+}
+
+.navbar a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.logo
+{
+    font-family: 'ROG Fonts', sans-serif;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+#content
+{
+    width: 70%;
+}

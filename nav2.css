@@ -1,0 +1,55 @@
+nav
+{
+    background-color: #020A17;
+    width: 100%;
+    height: auto;
+}
+
+.nav-style
+{
+    float: right;
+    padding-right: 20px;
+}
+
+.nav-style a
+{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.nav-style a:hover
+{
+    color: #ffffff42;
+}
+
+
+#search_text_input
+{
+    border: thin solid grey;
+    height: 28px;
+    outline: 0;
+    width: 500px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-left: 150px;
+}
+
+.button_holder
+{
+    background-color: rgb(208, 208, 212);
+    border: thin solid rgb(0, 0, 0);
+    cursor: pointer;
+    height: 28px;
+    text-align: center;
+    width: 50px;
+    float: right;
+    margin-right: 560px;
+}
+
+.button_holder img
+{
+    margin-top: 2px;
+    width: 20px;
+}

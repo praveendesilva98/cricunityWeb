@@ -1,0 +1,103 @@
+body
+{
+    overflow-x: hidden;
+    background-color: rgb(233, 233, 233);
+    margin: 0;
+}
+
+h4 
+{
+    font-size: 4em;
+    font-family: "Core Sans N W01 35 Light";
+    font-weight: normal;
+    margin: .67em 0;
+    display: block;
+    color: #ffffff;
+}
+
+h3
+{
+    font-family: "Core Sans N W01 35 Light";
+    font-weight: normal;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+h2
+{
+    font-family: "Core Sans N W01 35 Light";
+    font-weight: normal;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+
+#comment_iframe
+{
+    max-height: 250px;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+.comment_section
+{
+    padding: 0 5px 5px 5px;
+}
+
+.comment_section img
+{
+    margin: 0 3px 3px 3px;
+}
+
+#comment_form textarea
+{
+    width: 85%;
+    height: 35px;
+    color: #000000;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+#comment_form input[type="submit"]
+{
+    border: none;
+    border-radius: 5px;
+    width: 8%;
+    height: 35px;
+    position: absolute;
+    background-color: #020A17;
+    font-family: 'Bellota-BoldItalic', sans-serif;
+    color: #ffffff;
+    font-size: 13px;
+    position: relative;
+    cursor: pointer;
+    
+}
+
+#comment_form input[type="submit"]:hover
+{
+    color: #020A17;
+    transition: 400ms color;
+    background-color: white;
+}
+
+.photo_comment
+{
+    width: 10%;
+    height: auto;
+}
+
+.name_comment
+{
+    text-decoration: none;
+    color: #17035f;
+    font-weight: bold;
+    margin-top: 14px;
+}
+
+.btn
+{
+    color: red;
+    background-color: #ffffff;
+    border: none;
+}
